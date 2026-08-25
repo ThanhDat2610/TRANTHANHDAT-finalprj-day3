@@ -72,7 +72,7 @@ def list_tasks_endpoint(
     )
 
 # Thêm 1 router mới trong CÙNG file app/routers/task.py
-task_detail_router = APIRouter(prefix="/tasks", tags=["Tasks"])
+task_detail_router = APIRouter(prefix="/tasks", tags=["Tasks Detail"])
 
 
 @task_detail_router.get("/{task_id}")
